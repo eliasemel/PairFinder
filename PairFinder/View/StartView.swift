@@ -17,7 +17,7 @@ struct StartView: View {
 				VStack {
 					HStack {
 						Spacer()
-						Image("quantAppIntroImage")
+						Image("quantAppIntroImage").renderingMode(.original)
 					}
 					Spacer()
 					VStack(alignment: .leading) {

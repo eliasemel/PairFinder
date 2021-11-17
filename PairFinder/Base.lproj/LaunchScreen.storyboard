@@ -15,16 +15,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="quantAppIntroImage" translatesAutoresizingMaskIntoConstraints="NO" id="E25-Bo-1OQ">
-                                <rect key="frame" x="87" y="319.5" width="240" height="257"/>
-                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PairFinder" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tOH-Us-350">
+                                <rect key="frame" x="153" y="433" width="108" height="30"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="E25-Bo-1OQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="X7w-ql-xGE"/>
-                            <constraint firstItem="E25-Bo-1OQ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="dog-0Y-0Vk"/>
-                            <constraint firstItem="E25-Bo-1OQ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="wal-72-AQH"/>
+                            <constraint firstItem="tOH-Us-350" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="E7S-9Q-WgD"/>
+                            <constraint firstItem="tOH-Us-350" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="nB5-By-a2Q"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -33,7 +35,4 @@
             <point key="canvasLocation" x="52.173913043478265" y="375"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="quantAppIntroImage" width="220" height="257"/>
-    </resources>
 </document>
