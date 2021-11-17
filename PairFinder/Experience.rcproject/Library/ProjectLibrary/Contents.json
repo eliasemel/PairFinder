@@ -1,3 +1,27 @@
 [
-
+  {
+    "libraryIdentifier" : "e0c02ccc78bd52387e570578e79fbd13",
+    "format" : "model",
+    "displayName" : "left.usdz"
+  },
+  {
+    "libraryIdentifier" : "2d5753ac4c5ddb9f56c2248acc6dad33",
+    "format" : "model",
+    "displayName" : "left.usdz"
+  },
+  {
+    "libraryIdentifier" : "2a648b78f55a2f68a2693f59727b7c38",
+    "format" : "model",
+    "displayName" : "left.usdz"
+  },
+  {
+    "libraryIdentifier" : "c355c86cd331fce8e324e37e843f4a32",
+    "format" : "model",
+    "displayName" : "left.usdz"
+  },
+  {
+    "libraryIdentifier" : "d719673ddd87f6b68210ce915ceb2f6c",
+    "format" : "model",
+    "displayName" : "left.usdz"
+  }
 ]
