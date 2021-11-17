@@ -12,22 +12,29 @@ import RealityKit
 
 struct StartView: View {
 	
+	struct Constants {
+		static let logoImage = "quantAppIntroImage"
+		static let titleText = "LET'S FIND A PERFECT PAIR FOR YOU"
+		static let infoText = "A 3D foot scan sees your foot beyond the shoe size -- and helps us find you the perfect fit "
+		static let buttonClick = "Click to Scan"
+	}
+	
 	var body: some View {
 			NavigationView {
 				VStack {
 					HStack {
 						Spacer()
-						Image("quantAppIntroImage").renderingMode(.original)
+						Image(Constants.logoImage).renderingMode(.original)
 					}
 					Spacer()
 					VStack(alignment: .leading) {
 						
 						
-						Text("LET'S FIND A PERFECT PAIR FOR YOU")
+						Text(Constants.titleText)
 							.font(.title)
 							.fontWeight(.bold)
 							.padding([.vertical], 10.0)
-						Text("A 3D foot scan sees your foot beyond the shoe size -- and helps us find you the perfect fit ")
+						Text(Constants.infoText)
 							.font(.callout)
 							.padding([.vertical], 10.0)
 
@@ -35,7 +42,7 @@ struct StartView: View {
 					.padding()
 					Spacer()
 					NavigationLink(destination: DetailView()) {
-						Text("Click to Scan").padding()
+						Text(Constants.buttonClick).padding()
 					}
 					.foregroundColor(.white)
 					.background(.black)
